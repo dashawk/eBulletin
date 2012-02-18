@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteBase /eBulletin/api
+
+RewriteRule ^(.*)/$ request.php?REQ=$1 [L]
